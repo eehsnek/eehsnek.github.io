@@ -22,7 +22,7 @@
     --accent-hover: #3f5edb;
 }
 
-body.dark-mode {
+html.dark-mode {
     --background: #0f1115;
     --surface: #171a21;
     --surface-hover: #1e232d;
