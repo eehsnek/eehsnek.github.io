@@ -61,5 +61,30 @@
     <footer>
         <p>Since April 2025</p>
     </footer>
+    <script>
+        const toggleButton = document.getElementById("theme-toggle");
+
+        function updateThemeButton() {
+            if (document.documentElement.classList.contains("dark-mode")) {
+                toggleButton.textContent = "☀️ Light Mode";
+            } else {
+                toggleButton.textContent = "🌙 Dark Mode";
+            }
+        }
+
+        updateThemeButton();
+
+        toggleButton.addEventListener("click", function () {
+            document.documentElement.classList.toggle("dark-mode");
+
+            if (document.documentElement.classList.contains("dark-mode")) {
+                localStorage.setItem("theme", "dark");
+            } else {
+                localStorage.setItem("theme", "light");
+            }
+
+            updateThemeButton();
+        });
+    </script>
 </body>
 </html>
