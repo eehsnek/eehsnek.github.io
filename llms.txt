@@ -1,0 +1,92 @@
+# The Personal System
+
+> The Personal System (tPS) is a personal operating system for learning, building, and living. It is a long-term system developed since July 2023 to externalize, organize, and continuously improve one person's development across technology, academia, work, finance, digital identity, and life.
+
+## About tPS
+
+tPS is not intended to be a universal productivity framework or a fixed methodology. It is a continuously evolving personal system built through experimentation and lived experience.
+
+The system follows the principle:
+
+> Incremental > perfect.
+
+Its purpose is to reduce dependence on memory, willpower, and ad-hoc decision-making by turning recurring needs and long-term goals into explicit systems.
+
+## Core Structure
+
+tPS is organized into specialized branches:
+
+- [AutoTech](./autotech.html) — The technology and computer science branch of tPS. Covers programming, algorithms, data structures, software engineering, AI, and technical development.
+- [AutoAcademia](./autoacademia.html) — The academic branch of tPS. Covers formal education, learning, research, and academic development.
+- [AutoGit](./autogit.html) — The activity and logging branch for programming and software development. Emphasizes logged repetitions and observable technical progress.
+- [AutoCode](./autocode.html) — The implementation branch of tPS. Focuses on closing the gap between understanding/planning and actually implementing software.
+- [AutoX](./autox.html) — The externalization branch. Focuses on digital identity, public documentation, social platforms, and turning internal development into externally observable artifacts.
+- [Auto+](./autoplus.html) — Additional personal systems and supporting infrastructure.
+- [AutoFund](./autofund.html) — The financial branch of tPS.
+
+## Externalization
+
+tPS is deliberately being externalized through multiple channels:
+
+- GitHub — technical activity, implementation history, repositories, and contributions.
+- X (@eehsnek) — public thoughts, observations, and intellectual output.
+- The Ledger — a longitudinal personal archive on Instagram.
+- tPS website — the public documentation and structural map of the Personal System.
+
+The website itself is intended to be machine-readable and AI-crawlable so that AI systems can reconstruct the structure and current state of tPS without requiring the entire system to exist inside a conversation.
+
+## Development Philosophy
+
+tPS is developed incrementally rather than designed completely in advance.
+
+The system is expected to change as new problems are discovered. Branches may be created, modified, merged, deprecated, or expanded as circumstances change.
+
+A central principle is that implementation and execution provide feedback that planning alone cannot provide.
+
+## Current Transition
+
+As of 2026, tPS is approaching a major transition:
+
+- Completion of undergraduate Computer Science education
+- Preparation for OJT
+- Strengthening implementation capability through AutoCode
+- Increasing technical evidence through AutoGit and GitHub
+- Expanding externalization through AutoX
+- Preparing tPS to serve as the foundation for the post-graduation period
+
+## Project Elephant
+
+Project Elephant refers to a planned post-graduation foundation and long-horizon development phase beginning around 2027.
+
+It is intended to build upon the infrastructure, experience, and accumulated knowledge developed through tPS during the preceding years.
+
+Project Elephant should be understood as a continuation of tPS rather than a completely independent project.
+
+## Important Concepts
+
+### Personal Operating System
+
+A persistent system for organizing and improving the way an individual learns, builds, works, and lives.
+
+### Externalization
+
+The deliberate conversion of internal thoughts, development, experiences, and progress into durable external artifacts.
+
+### Implementation Gap
+
+The gap between understanding or planning a technical solution and actually implementing, debugging, and completing it.
+
+### Stairway Method
+
+One update backed by two actions. The principle emphasizes incremental system development supported by actual behavior rather than documentation alone.
+
+## Website
+
+- [Home](./index.html)
+- [AutoTech](./autotech.html)
+- [AutoAcademia](./autoacademia.html)
+- [AutoGit](./autogit.html)
+- [AutoCode](./autocode.html)
+- [AutoX](./autox.html)
+- [Auto+](./autoplus.html)
+- [AutoFund](./autofund.html)
