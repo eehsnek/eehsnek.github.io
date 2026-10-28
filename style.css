@@ -125,6 +125,60 @@ main {
     padding: 0 24px 80px;
 }
 
+main.page-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    align-items: start;
+    gap: 32px;
+}
+
+.content {
+    min-width: 0;
+}
+
+.infobox {
+    width: 100%;
+    align-self: start;
+    padding: 16px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    font-size: 0.9rem;
+}
+
+.infobox h2 {
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+.infobox-image {
+    display: grid;
+    min-height: 120px;
+    margin-bottom: 12px;
+    place-items: center;
+    background: var(--surface-hover);
+    color: var(--muted);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.infobox table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.infobox th,
+.infobox td {
+    padding: 7px 4px;
+    border-top: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+}
+
+.infobox th {
+    width: 34%;
+}
+
 section {
     border-top: 1px solid var(--border);
     padding-top: 32px;
@@ -261,5 +315,16 @@ footer {
     footer {
         padding-left: 20px;
         padding-right: 20px;
+    }
+}
+
+@media (max-width: 760px) {
+    main.page-layout {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .infobox {
+        max-width: 360px;
     }
 }
