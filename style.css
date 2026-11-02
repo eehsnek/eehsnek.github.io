@@ -328,3 +328,19 @@ footer {
         max-width: 360px;
     }
 }
+
+.intro-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 90px 24px 60px;
+}
+
+@media (max-width: 760px) {
+    .intro-layout {
+        grid-template-columns: 1fr;
+    }
+}
