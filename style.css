@@ -127,7 +127,7 @@ main {
 
 main.page-layout {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 260px;
+    grid-template-columns: minmax(0, 1fr);
     align-items: start;
     gap: 32px;
 }
