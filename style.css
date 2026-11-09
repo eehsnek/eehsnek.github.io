@@ -331,7 +331,7 @@ footer {
 
 .intro-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
     gap: 32px;
     max-width: 900px;
     width: 100%;
@@ -339,8 +339,35 @@ footer {
     padding: 90px 24px 60px;
 }
 
+.intro-heading {
+    grid-column: 1 / -1;
+}
+
+.intro-heading h1 {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 1.05;
+    margin-bottom: 18px;
+}
+
+.intro-heading hr {
+    border: 0;
+    border-top: 1px solid var(--border);
+}
+
+.intro-layout > header {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
 @media (max-width: 760px) {
     .intro-layout {
         grid-template-columns: 1fr;
+    }
+
+    .intro-heading {
+        grid-column: 1;
     }
 }
